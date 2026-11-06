@@ -26,9 +26,7 @@ const values = [
 ]
 
 const team = [
-  { name: "Vamsi Tallapudi", role: "Founder & AI Architect", initials: "VT", bio: "10+ years in software engineering. Built AI systems for startups and Fortune 500 teams." },
-  { name: "Alex Rivera", role: "Automation Engineer", initials: "AR", bio: "Specialist in n8n, Make, and custom API integrations. 200+ workflows shipped." },
-  { name: "Priya Nair", role: "AI Strategy Lead", initials: "PN", bio: "Former management consultant turned AI strategist. Bridges business logic and machine intelligence." },
+  { name: "Vamsi Krishna Tallapudi", role: "Founder & Director", initials: "VT", bio: "Founded Outstretch Technologies and builds MovieBoard AI, which turns raw videos into ready-to-post reels." },
 ]
 
 export default function AboutPage() {
@@ -150,7 +148,7 @@ export default function AboutPage() {
               </h2>
             </Reveal>
           </div>
-          <div className="grid md:grid-cols-3 gap-4">
+          <div className="grid max-w-sm gap-4">
             {team.map((member, i) => (
               <Reveal key={i} delay={i * 80}>
                 <div className="glass-card rounded-2xl p-7 hover:border-orange-600/15 transition-all duration-300">
