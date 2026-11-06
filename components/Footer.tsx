@@ -14,6 +14,9 @@ const links = {
     { href: "/services#consulting", label: "AI Consulting" },
     { href: "/services#training", label: "Implementation Training" },
   ],
+  Products: [
+    { href: "https://movieboard.ai", label: "MovieBoard AI" },
+  ],
   Legal: [
     { href: "/privacy", label: "Privacy Policy" },
     { href: "/terms", label: "Terms of Service" },
@@ -30,7 +33,7 @@ export function Footer() {
   return (
     <footer className="border-t border-white/[0.07] bg-[#080808]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
-        <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 lg:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-12 lg:gap-8">
           {/* Brand col */}
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center gap-2.5 group w-fit mb-5">
@@ -39,7 +42,7 @@ export function Footer() {
                   className="text-white font-bold text-sm"
                   style={{ fontFamily: "var(--font-outfit)" }}
                 >
-                  CR
+                  O
                 </span>
               </div>
               <span
@@ -96,9 +99,32 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="mt-12 pt-8 border-t border-white/[0.06] flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-zinc-600">
-            © {new Date().getFullYear()} outstretch.ai. All rights reserved.
-          </p>
+          <div className="text-xs text-zinc-600 leading-relaxed text-center sm:text-left space-y-1">
+            <p>
+              © {new Date().getFullYear()} Outstretch Technologies Private
+              Limited. All rights reserved.
+            </p>
+            <p>CIN U62011TS2026PTC225119</p>
+            <p>
+              324/AA, Flat No. 401, Tuberose, Ananda Poetree, Rangareddy,
+              Telangana 500089, India
+            </p>
+            <p>
+              <a
+                href="mailto:support@outstretch.ai"
+                className="hover:text-zinc-400 transition-colors"
+              >
+                support@outstretch.ai
+              </a>
+              {" · "}
+              <a
+                href="tel:+917013884389"
+                className="hover:text-zinc-400 transition-colors"
+              >
+                +91 70138 84389
+              </a>
+            </p>
+          </div>
           <Link
             href="/contact"
             className="flex items-center gap-1.5 text-xs text-zinc-500 hover:text-orange-500 transition-colors duration-200 cursor-pointer group"
