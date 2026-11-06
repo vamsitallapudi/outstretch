@@ -99,7 +99,7 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="mt-12 pt-8 border-t border-white/[0.06] flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="text-xs text-zinc-600 leading-relaxed text-center sm:text-left space-y-1">
+          <div className="text-xs text-zinc-400 leading-relaxed text-center sm:text-left space-y-1">
             <p>
               © {new Date().getFullYear()} Outstretch Technologies Private
               Limited. All rights reserved.
@@ -112,14 +112,14 @@ export function Footer() {
             <p>
               <a
                 href="mailto:support@outstretch.ai"
-                className="hover:text-zinc-400 transition-colors"
+                className="hover:text-white transition-colors"
               >
                 support@outstretch.ai
               </a>
               {" · "}
               <a
                 href="tel:+917013884389"
-                className="hover:text-zinc-400 transition-colors"
+                className="hover:text-white transition-colors"
               >
                 +91 70138 84389
               </a>
