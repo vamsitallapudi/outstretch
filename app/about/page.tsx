@@ -74,8 +74,8 @@ export default function AboutPage() {
                 <div className="absolute inset-0 bg-dot opacity-20" />
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-center">
-                    <div className="text-7xl font-black text-orange-600/20 mb-2" style={{ fontFamily: "var(--font-outfit)" }}>CR</div>
-                    <p className="text-xs text-zinc-700 border border-zinc-800 rounded-lg px-3 py-2">Team photo placeholder</p>
+                    <div className="text-7xl font-black text-orange-600/20 mb-2" style={{ fontFamily: "var(--font-outfit)" }}>O</div>
+                    <p className="text-xs text-zinc-500">Outstretch Technologies Private Limited</p>
                   </div>
                 </div>
               </div>
